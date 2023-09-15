@@ -15,22 +15,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./index.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="navigation">
           <a class="header-logo-link" href="./index.html"
             >Web<span class="header-logo-stydio">Studio</span></a
           >
           <ul class="navigation-list">
-            <li>
+            <li class="navigation-item">
               <a class="navigation-link active" href="./index.html">Studio</a>
             </li>
-            <li><a class="navigation-link" href="">Portfolio</a></li>
-            <li><a class="navigation-link" href="">Contacts</a></li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="">Portfolio</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="">Contacts</a>
+            </li>
           </ul>
         </nav>
         <address class="address">
@@ -47,6 +52,16 @@
             </li>
           </ul>
         </address>
+        <button class="open-mobail-menu-btn" type="button">
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="mobail menu open icon"
+          >
+            <use href="./images/icons.svg#icon-mobile_menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -59,7 +74,7 @@
         </div>
       </section>
       <!--Strategic Approach-->
-      <section class="strategi-section">
+      <!-- <section class="strategi-section">
         <div class="container">
           <h2 class="visually-hidden">Strategic Approach</h2>
           <ul class="strategi-section-list">
@@ -113,9 +128,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--Our Team-->
-      <section class="team-section">
+      <!-- <section class="team-section">
         <div class="container">
           <h2 class="subheader">Our Team</h2>
           <ul class="team-section-list">
@@ -128,9 +143,9 @@
               />
               <div class="worker">
                 <h3 class="title">Mark Guerrero</h3>
-                <p class="paragraph">Product Designer</p>
-                <!-- Social media list -->
-                <ul class="social-media-list">
+                <p class="paragraph">Product Designer</p> -->
+      <!-- Social media list -->
+      <!-- <ul class="social-media-list">
                   <li class="social-media-item">
                     <a
                       class="social-media-link"
@@ -338,9 +353,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
       <!--Our Portfolio-->
-      <section class="portfolio-section">
+      <!-- <section class="portfolio-section">
         <div class="container">
           <h2 class="subheader">Our Portfolio</h2>
           <ul class="portfolio-section-list">
@@ -460,10 +475,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer-section">
+    <!-- <footer class="footer-section">
       <div class="container">
         <div class="footer-logo-text">
           <a class="footer-logo-link" href="./index.html"
@@ -539,9 +554,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <!-- Modal form -->
-    <div class="modal-wrapper is-open">
+    <!-- <div class="modal-wrapper">
       <div class="modal-window">
         <button class="close-button" type="button">
           <svg class="close-icon" width="8" height="8">
@@ -625,7 +640,94 @@
           </div>
           <button class="main-button" type="submit">Send</button>
         </form>
-      </div>
+      </div> 
+    </div> -->
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu is-open">
+      <button
+        class="mobile-menu-close-btn"
+        type="button"
+        aria-label="menu close button"
+      >
+        <svg class="mobile-menu-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-menu-navigation">
+        <ul class="mobile-menu-nav-list">
+          <li class="mobile-menu-nav-item">
+            <a href="./index.html" class="mobile-menu-nav-link active"
+              >Studio</a
+            >
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a href="./index.html" class="mobile-menu-nav-link">Portfolio</a>
+          </li>
+          <li class="mobile-menu-nav-item">
+            <a href="./index.html" class="mobile-menu-nav-link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+
+      <address class="mobile-menu-address">
+        <ul class="mobile-menu-address-list">
+          <li>
+            <a
+              class="mobile-menu-address-link active"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="mobile-menu-address-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="social-media-list">
+        <li class="social-media-item">
+          <a
+            class="social-media-link"
+            href="https://www.instagram.com/"
+            target="_blank"
+            ><svg class="social-media-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-item">
+          <a
+            class="social-media-link"
+            href="https://www.twitter.com/"
+            target="_blank"
+            ><svg class="social-media-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-item">
+          <a
+            class="social-media-link"
+            href="https://www.facebook.com/"
+            target="_blank"
+            ><svg class="social-media-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-media-item">
+          <a
+            class="social-media-link"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            ><svg class="social-media-icon" width="16" height="16">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
