@@ -1,32 +1,5 @@
 /* Strategic Approach */
 
-.strategi-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.strategi-section-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 24px;
-}
-
-.strategi-item {
-  flex-basis: calc((100% - 72px) / 4);
-}
-
-.icon-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background-color: #f4f4fd;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-}
-
 /* Our Team */
 
 .team-section {
