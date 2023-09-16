@@ -9,6 +9,5 @@
 @import './css/layout/header.css';
 @import './css/layout/mobile-menu.css';
 @import './css/layout/hero.css';
-/* @import './css/layout/section-strategic.css'; */
-
 @import './css/layout/section-strategic.css';
+@import './css/layout/section-team.css';
