@@ -10,7 +10,7 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/main-img/people_ofice_mobile.jpg);
+    url(../../images/main-img/people_ofice_mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,7 +60,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/main-img/ofice_people_mobile2x.jpg);
+      url(../../images/main-img/ofice_people_mobile2x.jpg);
   }
 
   .main-header {
@@ -81,7 +81,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/main-img/ofice_people_tablet.jpg);
+      url(../../images/main-img/ofice_people_tablet.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -91,7 +91,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/main-img/ofice_people_tablet2x.jpg);
+        url(../../images/main-img/ofice_people_tablet2x.jpg);
     }
   }
 }
@@ -106,7 +106,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/main-img/people_office.jpg);
+      url(../../images/main-img/people_office.jpg);
   }
 
   @media screen and (min-resolution: 192dpi) {
@@ -116,7 +116,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/main-img/people-office2x.jpg);
+        url(../../images/main-img/people-office2x.jpg);
     }
   }
 }
