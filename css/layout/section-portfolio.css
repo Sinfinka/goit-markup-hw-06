@@ -7,9 +7,12 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-section-list-item {
+  width: 288px;
   background-color: #ffffff;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -23,6 +26,11 @@
 .portfolio-item-image {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-img {
+  width: 288px;
+  height: 280px;
 }
 
 .portfolio-item-overlay {
@@ -73,6 +81,15 @@
     column-gap: 24px;
     row-gap: 72px;
   }
+
+  .portfolio-section-list-item {
+    width: 356px;
+  }
+
+  .portfolio-img {
+    width: 356px;
+    height: 300px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -88,5 +105,8 @@
   .portfolio-section {
     padding-top: 120px;
     padding-bottom: 120px;
+  }
+  .portfolio-img {
+    width: 360px;
   }
 }

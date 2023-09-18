@@ -47,6 +47,7 @@
 }
 
 .footer-social-media .social-media-list {
+  display: flex;
   gap: 16px;
   margin-top: 0;
   justify-content: center;
@@ -61,10 +62,11 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
+  align-items: center;
 }
 
 .footer-input-email {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -88,7 +90,7 @@
 }
 
 .footer-button {
-  min-width: 165px;
+  width: 165px;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -126,6 +128,10 @@
     max-width: 264px;
   }
 
+  .footer-logo-link {
+    text-align: left;
+  }
+
   .footer-title {
     text-align: left;
   }
@@ -133,6 +139,9 @@
   .footer-form {
     flex-direction: row;
     gap: 24px;
+  }
+  .footer-input-email {
+    width: 264px;
   }
 }
 
@@ -144,6 +153,7 @@
   .footer-section .container {
     flex-wrap: nowrap;
     max-width: fit-content;
+    column-gap: 0;
   }
 
   .footer-logo-link {

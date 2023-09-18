@@ -18,12 +18,12 @@
 .team-section-list {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  align-items: center;
   gap: 72px;
 }
 
 .team-section-list-item {
+  width: 264px;
   background-color: #ffffff;
   /* flex-basis: calc((100% - 72px) / 4);  for desktop */
   border-radius: 0px 0px 4px 4px;
@@ -46,14 +46,27 @@
   text-align: center;
 }
 
-.team-section-list-item img {
-  display: inline;
-}
-
 .worker .social-media-list {
   display: flex;
   gap: 24px;
   justify-content: center;
+  margin-top: 8px;
+}
+
+.social-media-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+  background-color: #404bbf;
 }
 
 @media screen and (min-width: 768px) {
